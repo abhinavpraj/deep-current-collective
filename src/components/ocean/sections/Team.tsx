@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Sparkles } from "lucide-react";
@@ -72,9 +73,9 @@ const team: Member[] = [
     ],
     hobbies: ["Exploring systems", "Security concepts", "Engineering projects"],
     socials: [
-      { icon: Github, href: "#", label: "GitHub" },
-      { icon: Linkedin, href: "#", label: "LinkedIn" },
-      { icon: Mail, href: "#", label: "Email" },
+      { icon: Github, href: "www.github.com/abhinavpraj", label: "GitHub" },
+      { icon: Linkedin, href: "https://www.linkedin.com/in/abhinavp0310/", label: "LinkedIn" },
+      { icon: Mail, href: "f20240865@pilani.bits-pilani.ac.in", label: "Email" },
     ],
   },
   {
